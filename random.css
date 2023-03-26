@@ -1,0 +1,56 @@
+body{
+	background-image: url(dnd.jpg);
+	font-family: 'Lato', sans-serif;
+}
+main{
+    background: url(img_trans.png);
+	width: 50%;
+	border: 1px solid white;
+	margin: 50px auto;
+	padding: 25px;
+	border-radius: 10px;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+p{
+	color: white;
+	font-size: 18px;
+}
+.info{
+	text-align: center;
+}
+.row{
+	display: flex;
+	margin: 50px 0;
+}
+.container{
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 150px;
+	height: 150px;
+}
+.container p{
+	font-size: 20px;
+}
+.container h3, .container p{
+	margin: 30px;
+}
+#Players{
+	color: rgb(107, 243, 107);
+}
+#Quests{
+	color: rgb(92, 233, 246);
+}
+#Bosses{
+	color: rgb(255, 255, 255);
+}
+#italic{
+	font-style: italic;
+}
