@@ -1,3 +1,9 @@
+@keyframes stretch {
+	0%	{width:100%; opacity:0}
+	75%	{width:50%}
+	100%	{opacity:1}
+}	
+
 body{
 	background-image: url(dnd.jpg);
 	font-family: 'Lato', sans-serif;
@@ -9,6 +15,8 @@ main{
 	margin: 50px auto;
 	padding: 25px;
 	border-radius: 10px;
+	animation-name: stretch;
+	animation-duration: 2s;
 }
 h1{
 	color: white;
